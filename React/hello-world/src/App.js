@@ -5,6 +5,7 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Messege from './components/Messege'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Welcome name="Ahmed" degree="CSSE"></Welcome>
       <Welcome name="Fahim" degree="SE"></Welcome> */}
       {/*<Hello />*/}
-      <Messege />
+      {/* <Messege /> */}
+      <Counter />
     </div>
   );
 }
