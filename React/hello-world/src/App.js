@@ -11,10 +11,12 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
+      <NameList />
       {/* <Greet name="Mead" degree="CSE" > <p> this is  engineers property </p> </Greet>
       <Greet name="Ahmed" degree="CSSE" > <button>Action</button></Greet>
       <Greet name="Fahim" degree="SE" />
