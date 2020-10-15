@@ -12,10 +12,17 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
-
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 function App() {
   return (
     <div className="App">
+      <h1 className='error'> Error </h1>
+      <h1 className={styles.success}> Success </h1>
+      <Stylesheet primary={true} />
+      <Inline />
       <NameList />
       {/* <Greet name="Mead" degree="CSE" > <p> this is  engineers property </p> </Greet>
       <Greet name="Ahmed" degree="CSSE" > <button>Action</button></Greet>
